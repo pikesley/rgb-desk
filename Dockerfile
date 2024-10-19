@@ -1,8 +1,8 @@
-FROM python:3.7
+FROM python:3.11
 
 ENV SASS_VERSION 1.32.8
 
-RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_20.x | bash -
 
 RUN apt-get update && apt-get install -y \
                                             vim \

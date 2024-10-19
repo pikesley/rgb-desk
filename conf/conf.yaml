@@ -12,6 +12,10 @@ sectors:
   under-desk:
     - [198, 271]
 
+defaults:
+  colour: [21, 225, 235]
+  mode: sector-diverge
+
 modes:
   - name: sector-diverge
     display-name: Diverge
